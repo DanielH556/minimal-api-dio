@@ -1,0 +1,12 @@
+@base=http://localhost:5080
+
+###
+
+POST {{base}}/login
+Content-Type: application/json
+
+{
+    "email": "adm@teste.com",
+    "senha": "123456"
+}
+
